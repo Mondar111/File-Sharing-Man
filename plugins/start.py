@@ -40,11 +40,11 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Please wait...")
+        temp_msg = await message.reply("Tunggu Sebentar...")
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("Something went wrong..!")
+            await message.reply_text("Telah Terjadi Error..!")
             return
         await temp_msg.delete()
 
@@ -73,8 +73,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/tiktokpiral213"),
+                    InlineKeyboardButton("🗑 Close", callback_data = "close")
                 ]
             ]
         )
@@ -94,11 +94,11 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+    text = "<b>Selamat datang di BOT Asupan @tiktokpiral213\n\nSebelum Melihat Video Asupan BOKEP 💦, Kamu Wajib Join di Channel @tiktokpiral213\n\nSilakan Join Channel</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
-        text = text + f" <b>and <a href='https://t.me/{client.username}?start={argument}'>try again</a></b>"
+        text = text + f" <b>dan <a href='https://t.me/{client.username}?start={argument}'>Klik Disini Untuk Mencoba Lagi</a></b>"
     except ValueError:
         pass
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Join Channel", url = client.invitelink)]])
