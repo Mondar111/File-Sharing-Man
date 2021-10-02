@@ -6,8 +6,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/mrismanaziz/File-Sharing-Man",
-  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+  "repository": "https://github.com/mondar111/File-Sharing-Man",
+  "logo": "https://telegra.ph/file/0a1b9a0331be658e64871.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
@@ -15,11 +15,11 @@
     },
     "OWNER": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "Risman"
+      "value": "mondar"
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "844432220"
+      "value": "1633841964"
     },
     "APP_ID":{
       "description": "Dapatkan APP ID di web my.telegram.org",
