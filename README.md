@@ -21,7 +21,7 @@ I Guess This Will Be Usefull For Many People.....😇.
 ##
 ### Installation
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrismanaziz/File-Sharing-Man)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mondar111/File-Sharing-Man)</br>
 <a href="https://youtu.be/LCrkRTMkmzE">
   <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
 </a><br>
@@ -30,7 +30,7 @@ I Guess This Will Be Usefull For Many People.....😇.
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/mrismanaziz/File-Sharing-Man
+git clone https://github.com/mondar111/File-Sharing-Man
 cd File-Sharing-Man
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
@@ -84,7 +84,7 @@ python3 main.py
 
 
 ## Support   
-Join Our [Telegram Group](https://www.telegram.dog/SharingUserbot) For Support/Assistance And Our [Channel](https://www.telegram.dog/Lunatic0de) For Updates.   
+Join Our [Telegram Group](https://www.telegram.dog/Siniajaloh) For Support/Assistance And Our [Channel](https://www.telegram.dog/familynvn) For Updates.   
    
 Report Bugs, Give Feature Requests There..   
 
