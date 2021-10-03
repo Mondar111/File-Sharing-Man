@@ -22,7 +22,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "ʀɪsᴍᴀɴ•")
+OWNER = os.environ.get("OWNER", "momdar")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
