@@ -103,8 +103,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚠️ ASUPANKU", callback_data="about") InlineKeyboardButton("💦 CHANNEL ASUPAN RS"https: // t.me / donasibuas"),
-                    InlineKeyboardButton("🌟 group utama"https: // t.me / asupanbuas") InlineKeyboardButton("🗑 Close", callback_data="close")
+                    InlineKeyboardButton("⚠️ ASUPANKU", callback_data="about"),
+                    InlineKeyboardButton("🗑 Close", callback_data="close")
                 ]
             ]
         )
